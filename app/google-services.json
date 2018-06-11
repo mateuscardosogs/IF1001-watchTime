@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "949459491545",
+    "firebase_url": "https://watchtim3.firebaseio.com",
+    "project_id": "watchtim3",
+    "storage_bucket": "watchtim3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949459491545:android:e805c827f5a1cd09",
+        "android_client_info": {
+          "package_name": "if1001.watchtime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949459491545-91gp03dcsc72t9vegrdr7bk9n51v3cip.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "if1001.watchtime",
+            "certificate_hash": "8e5c1ab771fdfc480dca823af965e547b1273ec0"
+          }
+        },
+        {
+          "client_id": "949459491545-l2dk9rgvfjo2rshnmr213sm4ipvrdvvr.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "949459491545-l2dk9rgvfjo2rshnmr213sm4ipvrdvvr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNQ3TN2RRHv2dx5XQY_rxXofAbuhc8LmE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949459491545-l2dk9rgvfjo2rshnmr213sm4ipvrdvvr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
