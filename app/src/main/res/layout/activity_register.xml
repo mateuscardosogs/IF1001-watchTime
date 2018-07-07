@@ -3,10 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    android:layout_marginTop="16dp"
-    android:layout_marginRight="16dp"
-    android:layout_marginLeft="16dp"
-    android:layout_marginBottom="16dp"
+    android:background="@drawable/grad_bg"
     android:gravity="center"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -25,47 +22,88 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="Cadastro"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+
             <EditText
                 android:inputType="textCapWords"
                 android:id="@+id/editCadName"
-                android:hint="NAME"
+                android:hint="NOME"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="45dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/et_bg"
+                android:gravity="center" />
 
             <EditText
                 android:inputType="textCapWords"
                 android:id="@+id/editCadLastname"
-                android:hint="LAST NAME"
+                android:hint="SOBRENOME"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="45dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/et_bg"
+                android:gravity="center" />
 
             <EditText
                 android:inputType="date"
                 android:id="@+id/editCadBirthday"
-                android:hint="BIRTHDAY"
+                android:hint="DATA DE ANIVERSÁRIO"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="45dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/et_bg"
+                android:gravity="center" />
 
             <EditText
                 android:inputType="textEmailAddress"
                 android:id="@+id/editCadEmail"
                 android:hint="EMAIL"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="45dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/et_bg"
+                android:gravity="center" />
 
             <EditText
                 android:inputType="textPassword"
                 android:id="@+id/editCadPassword"
-                android:hint="PASSWORD"
+                android:hint="SENHA"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="45dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/et_bg"
+                android:gravity="center" />
 
             <EditText
                 android:inputType="textPassword"
                 android:id="@+id/editCadConfirmPassword"
-                android:hint="PASSWORD CONFIRM"
+                android:hint="CONFIRMAR SENHA"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="45dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/et_bg"
+                android:gravity="center" />
 
             <RadioGroup
                 android:id="@+id/rbCadGender"
@@ -76,24 +114,41 @@
 
                 <RadioButton
                     android:id="@+id/rbCadWoman"
-                    android:text="WOMAN"
+                    android:text="MULHER"
                     android:checked="true"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
                 <RadioButton
                     android:id="@+id/rbCadMale"
-                    android:text="MALE"
-                    android:checked="true"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="HOMEM"
+                    android:textColorLink="@android:color/white" />
             </RadioGroup>
 
             <Button
                 android:id="@+id/btnSubmit"
-                android:text="REGISTER"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/btn_bg"
+                android:textColor="@color/white"
+                android:text="CADASTRAR" />
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/btn_bg"
+                android:textColor="@color/white"
+                android:text="VOLTAR" />
 
         </LinearLayout>
     </ScrollView>

@@ -3,35 +3,57 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_marginTop="16dp"
-    android:layout_marginRight="16dp"
-    android:layout_marginLeft="16dp"
-    android:layout_marginBottom="16dp"
+    android:background="@drawable/grad_bg"
     android:gravity="center"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activity.LoginActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="watchTime"
+        android:textColor="@color/white"
+        android:textSize="40dp" />
+
     <EditText
         android:id="@+id/editEmail"
-        android:hint="EMAIL"
-        android:inputType="textEmailAddress"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="45dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/et_bg"
+        android:gravity="center"
+        android:hint="EMAIL"
+        android:inputType="textEmailAddress" />
 
     <EditText
         android:id="@+id/editPassword"
-        android:hint="PASSWORD"
-        android:inputType="textPassword"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="45dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/et_bg"
+        android:gravity="center"
+        android:hint="PASSWORD"
+        android:inputType="textPassword" />
 
     <Button
         android:id="@+id/btnLogin"
-        android:text="LOGIN"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/btn_bg"
+        android:textColor="@color/white"
+        android:text="LOGIN" />
+
     <TextView
         android:id="@+id/tvOpenRegister"
         android:text="Não tem cadastro? Clique aqui!"

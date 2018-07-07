@@ -36,6 +36,7 @@ public class RegisterActivity extends AppCompatActivity {
     private RadioButton rbCadWoman;
     private RadioButton rbCadMale;
     private Button btnSubmit;
+    private Button btnLogin;
     private Users users;
     private FirebaseAuth authentication;
 
@@ -53,6 +54,14 @@ public class RegisterActivity extends AppCompatActivity {
         rbCadWoman = (RadioButton) findViewById(R.id.rbCadWoman);
         rbCadMale = (RadioButton) findViewById(R.id.rbCadMale);
         btnSubmit = (Button) findViewById(R.id.btnSubmit);
+        btnLogin = (Button) findViewById(R.id.btnLogin);
+
+        btnLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openUserLogin();
+            }
+        });
 
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
