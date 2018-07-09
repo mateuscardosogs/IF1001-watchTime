@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+    android:id="@+id/action_sort_priority"
+    android:orderInCategory="100"
+    android:title="Ordenar por prioridade"
+    app:showAsAction="never" />
+    <item
+        android:id="@+id/action_sort_deadline"
+        android:orderInCategory="100"
+        android:title="Ordenar por deadline"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_main"
+        android:orderInCategory="100"
+        android:title="Menu Principal"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/action_sign_out"
+        android:orderInCategory="100"
+        android:title="Sair"
+        app:showAsAction="collapseActionView" />
+
+</menu>

@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">watchTime</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="speech_help">Speech Não Suportado...</string>
+    <string name="action_settings">Configurações</string>
+    <string name="speech_get_title">Qual é o título da anotação?</string>
+    <string name="speech_get_content">Fale as informações da anotação</string>
 </resources>

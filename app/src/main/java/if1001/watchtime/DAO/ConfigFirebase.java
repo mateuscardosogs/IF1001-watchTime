@@ -23,4 +23,11 @@ public class ConfigFirebase {
         }
         return authentication;
     }
+
+    public static FirebaseAuth getCurrentUser() {
+        if (authentication == null) {
+            authentication = FirebaseAuth.getInstance();
+        }
+        return authentication;
+    }
 }
