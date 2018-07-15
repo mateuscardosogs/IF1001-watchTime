@@ -113,5 +113,6 @@ public class LoginActivity extends AppCompatActivity {
     public void openUserRegister() {
         Intent intentOpenUserRegister = new Intent(LoginActivity.this, RegisterActivity.class);
         startActivity(intentOpenUserRegister);
+        finish();
     }
 }
