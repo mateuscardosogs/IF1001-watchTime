@@ -32,7 +32,9 @@
             android:name=".Activity.MainActivity"
             android:fitsSystemWindows="true"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
-            android:windowSoftInputMode="adjustPan"/>
+            android:windowSoftInputMode="adjustPan"
+            android:launchMode="singleInstance"/>
+
         <activity
             android:name=".Activity.RegisterActivity"
             android:fitsSystemWindows="true"

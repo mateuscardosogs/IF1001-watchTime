@@ -174,6 +174,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     public void openContentScreen() {
         Intent intentOpenMainScreen = new Intent(MainActivity.this, ContentActivity.class);
+        //intentOpenMainScreen.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intentOpenMainScreen);
+
     }
 }
