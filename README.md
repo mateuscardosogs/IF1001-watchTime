@@ -5,6 +5,11 @@
 - Mateus Cardoso: Desenvolvedor
 - Marcílio Freitas: Desenvolvedor
 
+## Relatório: [Clique Aqui](https://github.com/mateusc42/IF1001-watchTime/blob/master/Documentation/relatorio.md)
+## Link do Vídeo no YouTube: [Clique Aqui](https://www.youtube.com/watch?v=tNqO-q4gFmc&feature=youtu.be)
+## Link para Download da APK: [Clique Aqui](https://www.cin.ufpe.br/~mcgs/)
+## Link para Download do Código-Fonte: [Clique Aqui](https://github.com/mateusc42/IF1001-watchTime/releases)
+
 ## Objetivo
 Desenvolver uma aplicação mobile para ajudar os usuários a organizar filmes, series, animes e vídeos, de forma que sempre saibam em que episodio pararam ou até mesmo em qual tempo do vídeo pausaram.
 
